@@ -67,6 +67,19 @@ class DashboardScreen extends StatelessWidget {
  alturaMedia: 2.40,
  totalMedicoes: 20,
  ),
+const AreaMonitoramento(
+ id: 4,
+ codigo: 'SP270-KM052',
+ rodovia: 'SP-270',
+ kmInicial: 210,
+ kmFinal: 214,
+ localizacao: 'Itapetininga',
+ status: StatusVegetacao.atencao,
+ tipoTerreno: 'Planice',
+ densidade: 0.61,
+ alturaMedia: 1.56,
+ totalMedicoes: 16,
+ ),
  ];
 
  @override
